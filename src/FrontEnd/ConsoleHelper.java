@@ -111,7 +111,7 @@ public class ConsoleHelper {
     }
 
     public void setBooksCount() {
-        library.setBookCount(getInt("How many shelves does the library have?"));
+        library.setBookCount(getInt("How many books does the library have?"));
         int bookCount = library.getBookCount();
         library.bookCountArrayInitializer(bookCount);
     }

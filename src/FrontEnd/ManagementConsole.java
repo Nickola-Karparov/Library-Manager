@@ -14,8 +14,9 @@ public class ManagementConsole {
 
 
 
-        System.out.println("Welcome to Library Manager 10.000! First let's create the library! \n" +
+        helper.printMessage("Welcome to Library Manager 10.000! First let's create the library! \n" +
                 "First enter the number of floors the library has: ");
+        helper.createLibrary();
        // helper.setNumFloors(floors=scanner.nextInt());
        // System.out.println("Next, enter the number of bookshelves: ");
        // helper.setNumShelves(shelves=scanner.nextInt());
