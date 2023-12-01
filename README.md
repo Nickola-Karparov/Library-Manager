@@ -33,4 +33,3 @@ The following section describes the three different types of interactions, allow
 3.	Create library
 This is the initialising function for the program. When executed, it prompts the user to enter the characteristics of the library: the initial number of books, users and bookshelves. After creating the starting population of objects, the user can manipulate them with the help of the displayed options. 
 
-
