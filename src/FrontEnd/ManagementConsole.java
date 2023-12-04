@@ -6,11 +6,9 @@ import java.util.Scanner;
 
 public class ManagementConsole {
     public static void main(String[] args) {
-        //Create an instance of the hub class
-        Library library=new Library();
 
         //Create instance of console helper
-        ConsoleHelper helper=new ConsoleHelper(library);
+        ConsoleHelper helper=new ConsoleHelper();
 
 
 

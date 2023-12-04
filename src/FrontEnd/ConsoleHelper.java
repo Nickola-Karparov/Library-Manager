@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 public class ConsoleHelper {
     //region member vars
+
+    //Create an instance of the hub class
+
     Library library = new Library();
     Scanner scanner = new Scanner(System.in);
 
@@ -27,7 +30,7 @@ public class ConsoleHelper {
 
     //region helper functions
     public int getInt(String prompt) {
-        System.out.println(prompt);
+        printMessage(prompt);
         int helper = scanner.nextInt();
         String helper2 = scanner.nextLine();
         return helper;
@@ -35,7 +38,7 @@ public class ConsoleHelper {
     }
 
     public String getStr(String prompt) {
-        System.out.println(prompt);
+        printMessage(prompt);
         return scanner.nextLine();
     }
 
@@ -77,17 +80,17 @@ public class ConsoleHelper {
         createUsers();
     }
 
-    public void setFloorCount() {
+    private void setFloorCount() {
         library.setFloorCount(getInt("How many floors does the library have?"));
     }
 
-    public void setShelfCount() {
+    private void setShelfCount() {
         library.setShelfCount(getInt("How many shelves does the library have?"));
         int arrSize = library.getShelfCount();
         library.shelfCountArrayInitializer(arrSize);
     }
 
-    public void createAndPopulateShelves() {
+    private void createAndPopulateShelves() {
         int shelfCount = library.getShelfCount();
         for (int i = 0; i < shelfCount; i++) {
             String shelfLetter = getStr("Enter the letter of the " + numbers[i] + " shelf: ");
@@ -110,13 +113,13 @@ public class ConsoleHelper {
 
     }
 
-    public void setBooksCount() {
+    private void setBooksCount() {
         library.setBookCount(getInt("How many books does the library have?"));
         int bookCount = library.getBookCount();
         library.bookCountArrayInitializer(bookCount);
     }
 
-    public void createAndPopulateBooks() {
+    private void createAndPopulateBooks() {
         int bookCount = library.getBookCount();
         for (int i = 0; i < bookCount; i++) {
             String name = getStr("Enter name of " + numbers[i] + " the book: ");
@@ -155,16 +158,16 @@ public class ConsoleHelper {
 
     }
 
-    public void assignBooksToShelves() {
+    private void assignBooksToShelves() {
         library.sortBooks();
 
     }
 
-    public void setUserCount() {
+    private void setUserCount() {
         library.setUserCount(getInt("How many users does the library currently have?: "));
     }
 
-    public void createUsers() {
+    private void createUsers() {
         //TODO: finish
         String userName = getStr("What is the name of the user?: ");
         boolean subscriptionValid;

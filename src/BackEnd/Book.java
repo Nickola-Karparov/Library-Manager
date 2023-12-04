@@ -8,7 +8,7 @@ public class Book {
     private String name;
 
     private String author;
-    private String Language;
+    private String language;
     private String Topic;
     private int length;
 
