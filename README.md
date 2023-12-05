@@ -49,12 +49,9 @@ UML at least 3 good different big diagrams. "good" means you can pump it up arti
 1)	Component diagram  
 ![component_diagram](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/7bba6a01-9a04-4243-b67b-4e25dc07968c)
 
+2)	Class diagram ![class_diagram](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/3a041577-7fa8-4f34-a7e3-5d6ecf21f8b6)
 
-2)	Class diagram
-3)	![class_diagram](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/3a041577-7fa8-4f34-a7e3-5d6ecf21f8b6)
-
-4)	Activity diagram 
-![activity_diagram](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/83067cf6-5262-41da-b7d2-ca028e9a12a0)
+4)	Activity diagram ![activity_diagram](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/83067cf6-5262-41da-b7d2-ca028e9a12a0)
 
 
 3. Requirements Engineering
@@ -73,11 +70,15 @@ Build Management with any Build System as Ant, Maven, Gradle, etc. (only Travis 
 Integrate some nice unit tests in your Code to be integrated into the Build
 10. IDE
 Use a good IDE and get fluent with it: e.g. IntelliJ. What are your favourite key shortcuts?!
-1)	For the project I chose IntelliJ community edition and these are my most used shortcuts:
-•	Ctrl+f- find in current file;
-•	Alt+Enter- show context actions, gives suggestions how fixing errors.
-•	CTRL+E- view recent files
-•	CTRL+Alt+Shift+L- Reformat file 
+1)	For the project I chose the IntelliJ community edition and these are my most used shortcuts:
+
+ -Ctrl+f- find in the current file
+ 
+ -Alt+Enter- shows context actions, and gives suggestions on how to fix errors.
+ 
+ -CTRL+E- view recent files
+ 
+ -CTRL+Alt+Shift+L- Reformat file 
 
 
 11. Functional Programming
