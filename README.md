@@ -38,17 +38,23 @@ FINAL PROJECT SUBMISSION
 1. Git
 Use and understand Git! Play with Branches and undo/revert things = go back in time!
 1)	Merging requests 
+![merge_requests](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/1ac4a40f-82aa-4953-b399-133c31d67efd)
 
 2)	Going back in time (reverting to previous state)  
+![revert_back](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/bc88c888-5cb4-4aa5-9b4a-856117ca840f)
 
 
 2. UML
 UML at least 3 good different big diagrams. "good" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all the tools to view them! Perfect would be 1) one dynamic diagram like an activity diagranm 2) one or two static diagrams as component, class or deployment and if needed a use-case diagram.
 1)	Component diagram  
+![component_diagram](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/7bba6a01-9a04-4243-b67b-4e25dc07968c)
 
 
-2)	Class diagram 
-3)	Activity diagram 
+2)	Class diagram
+3)	![class_diagram](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/3a041577-7fa8-4f34-a7e3-5d6ecf21f8b6)
+
+4)	Activity diagram 
+![activity_diagram](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/83067cf6-5262-41da-b7d2-ca028e9a12a0)
 
 
 3. Requirements Engineering
