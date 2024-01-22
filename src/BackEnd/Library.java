@@ -148,7 +148,7 @@ public class Library {
     public Shelf[] getAllShelves() {
         // Retrieve all shelves in the library
         return this.shelvesArray;
-        //TODO: fix not suposed to go out of lib
+
     }
 
     private Shelf findShelfById(int shelfId) {
@@ -189,7 +189,7 @@ public class Library {
     public User[] getAllUsers() {
         // Retrieve all users in the library
         return this.userArray;
-        //TODO: fix not suposed to go out of lib
+
     }
 
     public void lendBookToUser(int userId, int bookId) {
