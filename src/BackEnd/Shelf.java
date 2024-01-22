@@ -1,18 +1,15 @@
 package BackEnd;
 
-public class Shelf {
+import java.util.Arrays;
+import java.util.Comparator;
 
-    //region member vars
+public class Shelf {
     private int shelfID;
     private int floor;
     private String shelfLetter;
-    Book [] bookArray;
-    //endregion
+    Book[] bookArray;
 
-    //region constructors
-
-    public Shelf(){
-
+    public Shelf() {
     }
 
     public Shelf(int shelfID, int floor, String shelfLetter, Book[] bookArray) {
@@ -22,11 +19,8 @@ public class Shelf {
         this.bookArray = bookArray;
     }
 
-    //endregion
-
-    //region getters and setters
     public int getShelfID() {
-        return shelfID;
+        return this.shelfID;
     }
 
     public void setShelfID(int shelfID) {
@@ -34,7 +28,7 @@ public class Shelf {
     }
 
     public int getFloor() {
-        return floor;
+        return this.floor;
     }
 
     public void setFloor(int floor) {
@@ -42,7 +36,7 @@ public class Shelf {
     }
 
     public String getShelfLetter() {
-        return shelfLetter;
+        return this.shelfLetter;
     }
 
     public void setShelfLetter(String shelfLetter) {
@@ -50,21 +44,28 @@ public class Shelf {
     }
 
     public Book[] getBookArray() {
-        return bookArray;
+        return this.bookArray;
     }
 
     public void setBookArray(Book[] bookArray) {
         this.bookArray = bookArray;
     }
-//endregion
 
-    public void addBookToShelf(Book book){
-        //TODO: finish
+    public void addBookToShelf(Book book) {
+        if (this.bookArray.length >= this.bookArray.length + 1) {
+            Book[] helperArray = (Book[])Arrays.copyOf(this.bookArray, this.bookArray.length + 1);
+            helperArray[this.bookArray.length] = book;
+            this.bookArray = helperArray;
+        } else {
+            this.bookArray[this.bookArray.length] = book;
+        }
+
     }
 
-    public void SortBooks(){
-        //TODO: maybe sort books alphabetically
-    }
-    //region
+    public void sortBooksAlphabetically() {
+        if (this.bookArray != null) {
+            Arrays.sort(this.bookArray, Comparator.comparing(Book::getName, String.CASE_INSENSITIVE_ORDER));
+        }
 
+    }
 }
