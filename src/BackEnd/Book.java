@@ -1,40 +1,27 @@
 package BackEnd;
 
 public class Book {
-
-    //region member vars
     private int bookId;
     private int lentToUserID;
     private String name;
-
     private String author;
     private String Language;
     private String Topic;
     private int length;
 
-    //endregion
-
-    //region constructors
-
-    public Book(){
-
+    public Book() {
     }
 
     public Book(int bookId, String name, String author, String language, String topic, int length) {
         this.bookId = bookId;
         this.name = name;
         this.author = author;
-        Language = language;
-        Topic = topic;
+        this.Topic = topic;
         this.length = length;
     }
 
-
-    //endregion
-
-    //region getters and setters
     public int getBookId() {
-        return bookId;
+        return this.bookId;
     }
 
     public void setBookId(int bookId) {
@@ -42,7 +29,7 @@ public class Book {
     }
 
     public int getLentToUserID() {
-        return lentToUserID;
+        return this.lentToUserID;
     }
 
     public void setLentToUserID(int lentToUserID) {
@@ -50,7 +37,7 @@ public class Book {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -58,7 +45,7 @@ public class Book {
     }
 
     public String getAuthor() {
-        return author;
+        return this.author;
     }
 
     public void setAuthor(String author) {
@@ -66,32 +53,25 @@ public class Book {
     }
 
     public String getLanguage() {
-        return Language;
+        return this.Language;
     }
 
     public void setLanguage(String language) {
-        Language = language;
     }
 
     public String getTopic() {
-        return Topic;
+        return this.Topic;
     }
 
     public void setTopic(String topic) {
-        Topic = topic;
+        this.Topic = topic;
     }
 
     public int getLength() {
-        return length;
+        return this.length;
     }
 
     public void setLength(int length) {
         this.length = length;
     }
-
-
-    //endregion
-
-
-
 }

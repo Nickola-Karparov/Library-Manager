@@ -2,28 +2,44 @@ package FrontEnd;
 
 import BackEnd.Library;
 
-import java.util.Scanner;
-
 public class ManagementConsole {
+    public ManagementConsole() {
+    }
+
     public static void main(String[] args) {
-        //Create an instance of the hub class
-        Library library=new Library();
-
-        //Create instance of console helper
-        ConsoleHelper helper=new ConsoleHelper(library);
-
-
-
-        helper.printMessage("Welcome to Library Manager 10.000! First let's create the library! \n" +
-                "First enter the number of floors the library has: ");
+        Library library = new Library();
+        ConsoleHelper helper = new ConsoleHelper(library);
+        helper.printMessage("Welcome to Library Manager 10.000! First let's create the library! \nFirst enter the number of floors the library has: ");
         helper.createLibrary();
-       // helper.setNumFloors(floors=scanner.nextInt());
-       // System.out.println("Next, enter the number of bookshelves: ");
-       // helper.setNumShelves(shelves=scanner.nextInt());
-       // System.out.println("Finally, enter the current number of users: ");
-       // helper.setNumShelves(users=scanner.nextInt());
 
-//TODO: add create lib + options
+        boolean breaker;
+        do {
+            breaker = false;
+            int selectOption = helper.getInt("To move a shelf to a different floor 1.\nFor user level options press 2.\nFor book level options press 3.\nTo display all users press 4.\nTo display all books press 5\nTo display all shelves press 6.\nTo end the process and exit the program press 7.");
+            switch (selectOption) {
+                case 1:
+                    helper.shelfLevelOptions();
+                    break;
+                case 2:
+                    helper.userLevelOptions();
+                    break;
+                case 3:
+                    helper.bookLevelOptions();
+                    break;
+                case 4:
+                    helper.displayAllUsers();
+                    break;
+                case 5:
+                    helper.displayAllBooks();
+                    break;
+                case 6:
+                    helper.displayAllShelves();
+                    break;
+                case 7:
+                    breaker = true;
+            }
+        } while(!breaker);
 
+        helper.printMessage("Have a nice day.");
     }
 }
