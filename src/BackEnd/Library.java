@@ -113,7 +113,7 @@ public class Library {
     //region shelf level options
 
     public void moveShelf(int shelfId, int newFloor) {
-        // Move a shelf to different floor
+        // Move a shelf to a different floor
         Shelf shelf = this.findShelfById(shelfId);
         if (shelf != null) {
             shelf.setFloor(newFloor);
