@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - final-final
+      - new_branch
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
