@@ -1,15 +1,18 @@
 package BackEnd;
 
-import java.util.Arrays;
-import java.util.Comparator;
-
 public class Shelf {
+
+    //region member vars
     private int shelfID;
     private int floor;
     private String shelfLetter;
-    Book[] bookArray;
+    Book [] bookArray;
+    //endregion
 
-    public Shelf() {
+    //region constructors
+
+    public Shelf(){
+
     }
 
     public Shelf(int shelfID, int floor, String shelfLetter, Book[] bookArray) {
@@ -19,8 +22,11 @@ public class Shelf {
         this.bookArray = bookArray;
     }
 
+    //endregion
+
+    //region getters and setters
     public int getShelfID() {
-        return this.shelfID;
+        return shelfID;
     }
 
     public void setShelfID(int shelfID) {
@@ -28,7 +34,7 @@ public class Shelf {
     }
 
     public int getFloor() {
-        return this.floor;
+        return floor;
     }
 
     public void setFloor(int floor) {
@@ -36,7 +42,7 @@ public class Shelf {
     }
 
     public String getShelfLetter() {
-        return this.shelfLetter;
+        return shelfLetter;
     }
 
     public void setShelfLetter(String shelfLetter) {
@@ -44,28 +50,21 @@ public class Shelf {
     }
 
     public Book[] getBookArray() {
-        return this.bookArray;
+        return bookArray;
     }
 
     public void setBookArray(Book[] bookArray) {
         this.bookArray = bookArray;
     }
+//endregion
 
-    public void addBookToShelf(Book book) {
-        if (this.bookArray.length >= this.bookArray.length + 1) {
-            Book[] helperArray = (Book[])Arrays.copyOf(this.bookArray, this.bookArray.length + 1);
-            helperArray[this.bookArray.length] = book;
-            this.bookArray = helperArray;
-        } else {
-            this.bookArray[this.bookArray.length] = book;
-        }
-
+    public void addBookToShelf(Book book){
+        //TODO: finish
     }
 
-    public void sortBooksAlphabetically() {
-        if (this.bookArray != null) {
-            Arrays.sort(this.bookArray, Comparator.comparing(Book::getName, String.CASE_INSENSITIVE_ORDER));
-        }
-
+    public void SortBooks(){
+        //TODO: maybe sort books alphabetically
     }
+    //region
+
 }

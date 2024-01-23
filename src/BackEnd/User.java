@@ -1,22 +1,30 @@
 package BackEnd;
 
 public class User {
+
+   //region member vars
     private int userID;
     private String Name;
-    private int borrowedBookID;
+    private int[] borrowedBookID;
     private boolean subscriptionValid;
+    //endregion
 
-    public User() {
+    //region constructors
+    public User(){
+
     }
 
-    public User(int userID, String name, boolean subscriptionValid) {
+    public User(int userID, String name, int[] borrowedBookID, boolean subscriptionValid) {
         this.userID = userID;
-        this.Name = name;
+        Name = name;
+        this.borrowedBookID = borrowedBookID;
         this.subscriptionValid = subscriptionValid;
     }
+    //endregion
 
+    //region getters and setters
     public int getUserID() {
-        return this.userID;
+        return userID;
     }
 
     public void setUserID(int userID) {
@@ -24,26 +32,30 @@ public class User {
     }
 
     public String getName() {
-        return this.Name;
+        return Name;
     }
 
     public void setName(String name) {
-        this.Name = name;
+        Name = name;
     }
 
-    public int getBorrowedBookID() {
-        return this.borrowedBookID;
+    public int[] getBorrowedBookID() {
+        return borrowedBookID;
     }
 
-    public void setBorrowedBookID(int borrowedBookID) {
+    public void setBorrowedBookID(int[] borrowedBookID) {
         this.borrowedBookID = borrowedBookID;
     }
 
     public boolean isSubscriptionValid() {
-        return this.subscriptionValid;
+        return subscriptionValid;
     }
 
     public void setSubscriptionValid(boolean subscriptionValid) {
         this.subscriptionValid = subscriptionValid;
     }
+    //endregion
+
+
+
 }
