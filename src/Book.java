@@ -1,4 +1,3 @@
-package BackEnd;
 
 public class Book {
     private int bookId;
@@ -56,8 +55,6 @@ public class Book {
         return this.Language;
     }
 
-    public void setLanguage(String language) {
-    }
 
     public String getTopic() {
         return this.Topic;

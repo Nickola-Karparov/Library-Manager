@@ -1,6 +1,3 @@
-package FrontEnd;
-
-import BackEnd.Library;
 
 public class ManagementConsole {
     public ManagementConsole() {

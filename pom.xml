@@ -15,7 +15,5 @@
     </properties>
 
     <build>
-        <sourceDirectory>FrontEnd</sourceDirectory>
-        <scriptSourceDirectory>FrontEnd</scriptSourceDirectory>
     </build>
 </project>
