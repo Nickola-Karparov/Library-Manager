@@ -14,9 +14,20 @@
 ![activity diagram](https://github.com/Nickola-Karparov/Library-Manager/blob/final-final/screenshots/UML/activity_diagram.png)
 
 ## 3. Requirements Engineering
-![Trello](https://trello.com/b/6mTFDURe/software-dev)
+[Trello](https://trello.com/b/6mTFDURe/software-dev)
 
-![Airtable](https://airtable.com/appdvwPGsptPOFyjl/tblgs4lT4zov5Cqhr/viwYvPbJxbjhZKYit?blocks=hide)
+https://trello.com/b/6mTFDURe/software-dev
+
+![image](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/7b46fd34-e332-420a-9770-434991cc563d)
+
+
+
+
+
+
+[Airtable](https://airtable.com/appdvwPGsptPOFyjl/tblgs4lT4zov5Cqhr/viwYvPbJxbjhZKYit?blocks=hide)
+
+![image](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/5414f262-408a-4291-b051-29ab1cc21578)
 https://airtable.com/appdvwPGsptPOFyjl/tblgs4lT4zov5Cqhr/viwYvPbJxbjhZKYit?blocks=hide
 
 
