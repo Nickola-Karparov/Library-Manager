@@ -50,6 +50,7 @@
 [CCD_B.pdf](https://github.com/Nickola-Karparov/Library-Manager/files/14026989/CCD_B.pdf)
 
 ## 8. Build 
+[build_management.pdf](https://github.com/Nickola-Karparov/Library-Manager/files/14027319/build_management.pdf)
 
 
 
