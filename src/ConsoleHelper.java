@@ -53,28 +53,41 @@ public class ConsoleHelper {
         //set floor count
         setFloorCount();
 
+        createShelves();
+
+        createBooks();
+
+        //assign books to shelves
+        assignBooksToShelves();
+
+        createInitialUsers();
+
+    }
+
+    public void createShelves(){
         //set shelf count
         setShelfCount();
 
         //create and populate shelves
         createAndPopulateShelves();
-
+    }
+    public void createBooks(){
         //set books count
         setBooksCount();
 
         //create books
         createAndPopulateBooks();
 
-        //assign books to shelves
-        assignBooksToShelves();
+    }
 
+    public void createInitialUsers(){
         //set user count
         setUserCount();
 
         //create users
         createUsers();
-
     }
+
 
     public void setFloorCount() {
         // Set the number of floors in the library
@@ -158,6 +171,7 @@ public class ConsoleHelper {
 
     }
 
+
     public void assignBooksToShelves() {
         // Assign books to shelves and sort them
         this.library.sortBooks();
@@ -195,6 +209,16 @@ public class ConsoleHelper {
     //endregion
 
     //region book level options
+
+    @Test
+    public void testAddBook() {
+        Library library = new Library();
+        library.addBook("The Catcher in the Rye", "Fiction", "J.D. Salinger", "English", 234);
+        Book[] books = library.getAllBooks();
+        assertEquals(1, books.length);
+        assertEquals("The Catcher in the Rye", books[0].getName());
+    }
+
     public void bookLevelOptions() {
         // Display book level options based on user input
         this.displayAllBooks();
@@ -264,6 +288,18 @@ public class ConsoleHelper {
     //endregion
 
     //region user level options
+    @Test
+    public void testLendBookToUser() {
+        Library library = new Library();
+        library.addUser("John Doe", true);
+        library.addBook("The Great Gatsby", "Classics", "F. Scott Fitzgerald", "English", 300);
+        User user = library.getAllUsers()[0];
+        Book book = library.getAllBooks()[0];
+        library.lendBookToUser(user.getUserId(), book.getBookId());
+        assertEquals(book.getBookId(), user.getBorrowedBookId());
+        assertEquals(user.getUserId(), book.getLentToUserId());
+    }
+
     public void userLevelOptions() {
         // Display user level options based on user input
         this.displayAllUsers();
@@ -327,6 +363,20 @@ public class ConsoleHelper {
     //endregion
 
     //region shelf level options
+
+    @Test
+    public void testSortBooksOnShelf() {
+        Library library = new Library();
+        library.addShelf("A", 1);
+        library.addBook("1984", "Dystopian", "George Orwell", "English", 350);
+        library.addBook("Brave New World", "Dystopian", "Aldous Huxley", "English", 320);
+        Shelf shelf = library.getAllShelves()[0];
+        library.sortBooksOnShelf(shelf.getShelfId());
+        Book[] booksOnShelf = shelf.getBooksOnShelf();
+        assertEquals("Brave New World", booksOnShelf[0].getName());
+        assertEquals("1984", booksOnShelf[1].getName());
+    }
+}
     public void shelfLevelOptions() {
         // Display shelf level options based on user input
         this.displayAllShelves();
