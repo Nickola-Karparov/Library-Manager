@@ -55,8 +55,6 @@ public class Book {
         return this.Language;
     }
 
-    public void setLanguage(String language) {
-    }
 
     public String getTopic() {
         return this.Topic;
