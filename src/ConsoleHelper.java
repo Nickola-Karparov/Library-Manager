@@ -53,41 +53,28 @@ public class ConsoleHelper {
         //set floor count
         setFloorCount();
 
-        createShelves();
-
-        createBooks();
-
-        //assign books to shelves
-        assignBooksToShelves();
-
-        createInitialUsers();
-
-    }
-
-    public void createShelves(){
         //set shelf count
         setShelfCount();
 
         //create and populate shelves
         createAndPopulateShelves();
-    }
-    public void createBooks(){
+
         //set books count
         setBooksCount();
 
         //create books
         createAndPopulateBooks();
 
-    }
+        //assign books to shelves
+        assignBooksToShelves();
 
-    public void createInitialUsers(){
         //set user count
         setUserCount();
 
         //create users
         createUsers();
-    }
 
+    }
 
     public void setFloorCount() {
         // Set the number of floors in the library
