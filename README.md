@@ -53,6 +53,33 @@
 [Build Management PDF](https://github.com/Nickola-Karparov/Library-Manager/files/14027319/build_management.pdf)
 
 ## 9.Integrate some (>>2) nice unit tests in your Code to be integrated into the Build
+![Unit test 1](https://github.com/Nickola-Karparov/Library-Manager/blob/b6a6e5a9ef854f85e6e84eb7ab1fe09d46d84a35/src/ConsoleHelper.java#L213C3-L220C6) 
+
+![Unit test 2](https://github.com/Nickola-Karparov/Library-Manager/blob/b6a6e5a9ef854f85e6e84eb7ab1fe09d46d84a35/src/ConsoleHelper.java#L291C4-L302C1)
+
+![Unit test 3](https://github.com/Nickola-Karparov/Library-Manager/blob/b6a6e5a9ef854f85e6e84eb7ab1fe09d46d84a35/src/ConsoleHelper.java#L367C4-L379C2)
+
+## 10. IDE 
+
+### MY IDE: IntelliJ IDEA Community
+
+My most used shortcuts:
+- Ctrl+F- Find in current file
+- Ctrl+B- Go to function declaration
+- Ctrl+Shift+A- Find action
+- Ctrl+/- Trun selected code into a block comment
+
+## 11.Functional Programming
+only final data structures  
+![Only final data structures](https://github.com/Nickola-Karparov/Library-Manager/blob/b6a6e5a9ef854f85e6e84eb7ab1fe09d46d84a35/src/FunctionalProgramming.java#L5)
+![Side-effect-free functions](https://github.com/Nickola-Karparov/Library-Manager/blob/b6a6e5a9ef854f85e6e84eb7ab1fe09d46d84a35/src/FunctionalProgramming.java#L8C8-L10C1)
+![Higher-order function](https://github.com/Nickola-Karparov/Library-Manager/blob/b6a6e5a9ef854f85e6e84eb7ab1fe09d46d84a35/src/FunctionalProgramming.java#L30C1-L36C6)
+![Functions as parameters and return values](https://github.com/Nickola-Karparov/Library-Manager/blob/b6a6e5a9ef854f85e6e84eb7ab1fe09d46d84a35/src/FunctionalProgramming.java#L30C1-L36C6)
+![Use closures / anonymous functions](https://github.com/Nickola-Karparov/Library-Manager/blob/b6a6e5a9ef854f85e6e84eb7ab1fe09d46d84a35/src/FunctionalProgramming.java#L16C1-L18C72)
+
+
+
+
 
 
 
