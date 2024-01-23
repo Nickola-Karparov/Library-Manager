@@ -43,9 +43,16 @@
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Nickola-Karparov_Library-Manager&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Nickola-Karparov_Library-Manager)
 
 ## 7.Clean Code Development
+### A
+[CCD_A.pdf](https://github.com/Nickola-Karparov/Library-Manager/files/14026979/CCD_A.pdf)
+
+### B
+[CCD_B.pdf](https://github.com/Nickola-Karparov/Library-Manager/files/14026989/CCD_B.pdf)
 
 
 
+
+---------------------------------
 Project idea
 Library management console
 
