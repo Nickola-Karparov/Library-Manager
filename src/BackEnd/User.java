@@ -46,7 +46,4 @@ public class User {
     public void setSubscriptionValid(boolean subscriptionValid) {
         this.subscriptionValid = subscriptionValid;
     }
-    public void test(){
-
-    }
 }

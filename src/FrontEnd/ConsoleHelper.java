@@ -376,8 +376,4 @@ public class ConsoleHelper {
         this.library.moveShelf(shelfID, newFloor);
     }
     //endregion
-
-public void test(){
-
-}
 }
