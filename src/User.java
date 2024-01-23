@@ -1,4 +1,3 @@
-package BackEnd;
 
 public class User {
     private int userID;

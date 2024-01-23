@@ -1,4 +1,3 @@
-package FrontEnd;
 
 import BackEnd.Library;
 

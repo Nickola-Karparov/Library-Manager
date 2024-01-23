@@ -1,4 +1,3 @@
-package BackEnd;
 
 public class Book {
     private int bookId;
