@@ -1,5 +1,5 @@
 ## 1. Git 
-![commit history ](https://github.com/Nickola-Karparov/Library-Manager/commits/final-final/)  
+![Commit history ](https://github.com/Nickola-Karparov/Library-Manager/commits/final-final/)  
 
 ## 2. UML 
 
@@ -14,6 +14,10 @@
 ![activity diagram](https://github.com/Nickola-Karparov/Library-Manager/blob/final-final/screenshots/UML/activity_diagram.png)
 
 ## 3. Requirements Engineering
+![Trello](https://trello.com/b/6mTFDURe/software-dev)
+
+![Airtable](https://airtable.com/appdvwPGsptPOFyjl/tblgs4lT4zov5Cqhr/viwYvPbJxbjhZKYit?blocks=hide)
+https://airtable.com/appdvwPGsptPOFyjl/tblgs4lT4zov5Cqhr/viwYvPbJxbjhZKYit?blocks=hide
 
 
 ## 4. Analysis 
@@ -33,6 +37,7 @@
 ### Relationship diagram
 ![relationship](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/8cda8cf2-abd9-4fb5-b544-b7e2f7739626)
 
+
 ## 6.Metrics
 
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Nickola-Karparov_Library-Manager&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Nickola-Karparov_Library-Manager)
@@ -42,10 +47,20 @@
 
 ## 7.Clean Code Development
 ### A
-[CCD_A.pdf](https://github.com/Nickola-Karparov/Library-Manager/files/14026979/CCD_A.pdf)
+[CCD A.pdf](https://github.com/Nickola-Karparov/Library-Manager/files/14028627/CCD2.pdf)
+
+![Tell, don´t ask:](https://github.com/Nickola-Karparov/Library-Manager/blob/57aeee280702167dd6b0df7d527c23ac00fef147/src/Library.java#L125C4-L130C6)
+![Keep it simple, stupid (KISS):](https://github.com/Nickola-Karparov/Library-Manager/blob/57aeee280702167dd6b0df7d527c23ac00fef147/src/ManagementConsole.java#L13C8-L40C49)
+![Consistent naming convention](https://github.com/Nickola-Karparov/Library-Manager/blob/57aeee280702167dd6b0df7d527c23ac00fef147/src/ConsoleHelper.java#L14C5-L51C34)
+![Don’t Repeat Yourself (DRY)](https://github.com/Nickola-Karparov/Library-Manager/blob/57aeee280702167dd6b0df7d527c23ac00fef147/src/ConsoleHelper.java#L29C1-L46C6)
+![Minimal amount of code in Main](https://github.com/Nickola-Karparov/Library-Manager/blob/57aeee280702167dd6b0df7d527c23ac00fef147/src/ManagementConsole.java#L7C9-L16C36)
+
 
 ### B
-[CCD_B.pdf](https://github.com/Nickola-Karparov/Library-Manager/files/14026989/CCD_B.pdf)
+[CCD B.pdf](https://github.com/Nickola-Karparov/Library-Manager/files/14028648/CCD_B.pdf)
+
+
+
 
 ## 8. Build 
 [Build Management PDF](https://github.com/Nickola-Karparov/Library-Manager/files/14027319/build_management.pdf)
