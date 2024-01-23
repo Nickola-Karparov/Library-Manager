@@ -41,5 +41,9 @@ public class ManagementConsole {
         } while(!breaker);
 
         helper.printMessage("Have a nice day.");
+
+        public void test(){
+
+        }
     }
 }
