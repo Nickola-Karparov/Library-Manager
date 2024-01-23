@@ -50,9 +50,13 @@ https://airtable.com/appdvwPGsptPOFyjl/tblgs4lT4zov5Cqhr/viwYvPbJxbjhZKYit?block
 [CCD A.pdf](https://github.com/Nickola-Karparov/Library-Manager/files/14028627/CCD2.pdf)
 
 ![Tell, don´t ask:](https://github.com/Nickola-Karparov/Library-Manager/blob/57aeee280702167dd6b0df7d527c23ac00fef147/src/Library.java#L125C4-L130C6)
+
 ![Keep it simple, stupid (KISS):](https://github.com/Nickola-Karparov/Library-Manager/blob/57aeee280702167dd6b0df7d527c23ac00fef147/src/ManagementConsole.java#L13C8-L40C49)
+
 ![Consistent naming convention](https://github.com/Nickola-Karparov/Library-Manager/blob/57aeee280702167dd6b0df7d527c23ac00fef147/src/ConsoleHelper.java#L14C5-L51C34)
+
 ![Don’t Repeat Yourself (DRY)](https://github.com/Nickola-Karparov/Library-Manager/blob/57aeee280702167dd6b0df7d527c23ac00fef147/src/ConsoleHelper.java#L29C1-L46C6)
+
 ![Minimal amount of code in Main](https://github.com/Nickola-Karparov/Library-Manager/blob/57aeee280702167dd6b0df7d527c23ac00fef147/src/ManagementConsole.java#L7C9-L16C36)
 
 
