@@ -1,3 +1,51 @@
+![image](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/8a0f6964-5cea-4f1b-a174-9b3cfbf99414)## 1. Git 
+### Use and understand Git! Play with Branches and undo/revert things = go back in time!
+![commit history ](https://github.com/Nickola-Karparov/Library-Manager/commits/final-final/)  
+
+## 2. UML 
+### UML at least 3 good different big diagrams. "good" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all the tools to view them! Perfect would be 1) one dynamic diagram like an activity diagram 2) one or two static diagrams as component, class or deployment and if needed a use-case diagram.
+
+### Class diagram
+
+![Class diagram](https://github.com/Nickola-Karparov/Library-Manager/blob/final-final/screenshots/UML/class_diagram.png) 
+
+### Component diagram
+![component diagram](https://github.com/Nickola-Karparov/Library-Manager/blob/final-final/screenshots/UML/component_diagram.png)
+
+### Activity diagram
+![activity diagram](https://github.com/Nickola-Karparov/Library-Manager/blob/final-final/screenshots/UML/activity_diagram.png)
+
+## 3. Requirements Engineering
+
+
+## 4. Analysis 
+### A
+![Checklist](https://github.com/Nickola-Karparov/Library-Manager/blob/final-final/screenshots/Business%20checklist)
+
+### B
+![Analysis](https://github.com/Nickola-Karparov/Library-Manager/blob/final-final/screenshots/analysis)
+
+## 5. DDD
+### Event storming 
+![event_storming](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/3e6f8093-8e62-48fa-a77d-7da0d4ff72e7)
+
+### Core domain chart
+![core_domain_chart](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/37e70e17-679a-4cb0-9dcd-90f162b30509)
+
+### Relationship diagram
+![relationship](https://github.com/Nickola-Karparov/Library-Manager/assets/149435602/8cda8cf2-abd9-4fb5-b544-b7e2f7739626)
+
+## 6.Metrics
+
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Nickola-Karparov_Library-Manager&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Nickola-Karparov_Library-Manager)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Nickola-Karparov_Library-Manager&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Nickola-Karparov_Library-Manager)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Nickola-Karparov_Library-Manager&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Nickola-Karparov_Library-Manager)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Nickola-Karparov_Library-Manager&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Nickola-Karparov_Library-Manager)
+
+## 7.Clean Code Development
+
+
+
 Project idea
 Library management console
 
