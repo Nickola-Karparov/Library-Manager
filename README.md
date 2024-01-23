@@ -52,6 +52,9 @@
 ## 8. Build 
 [Build Management PDF](https://github.com/Nickola-Karparov/Library-Manager/files/14027319/build_management.pdf)
 
+## 9.Integrate some (>>2) nice unit tests in your Code to be integrated into the Build
+
+
 
 
 ---------------------------------
